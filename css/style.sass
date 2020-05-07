@@ -103,3 +103,44 @@ body
 
                     img
                         margin-right: 6px
+
+
+
+        .header-info
+            width: 100%
+            display: flex
+            flex-flow: column wrap
+            align-items: center
+            justify-content: center
+            height: 70%
+
+            .header-info__title
+                text-align: center
+
+                h1
+                    font-size: 60px
+                    font-weight: bold
+                    color: #ffffff
+                    @media screen and (max-width: 360px)
+                        font-size: 32px
+
+            .header-info__link
+                display: flex
+                flex-flow: wrap
+                align-items: center
+                justify-content: center
+                color: #ffffff
+                padding-top: 74px
+                margin-right: 50px
+                @media screen and (max-width: 360px)
+                    flex-flow: column
+                    margin: 0    
+
+                button
+                    width: 100px
+                    height: 100px
+                    border-radius: 50%
+                    background-color: #ffffff
+                    margin: 0 33px
+                    @media screen and (max-width: 360px)
+                        margin: 10px 0
